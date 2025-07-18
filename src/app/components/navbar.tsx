@@ -8,7 +8,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ toggleTeamDisplay, teamLength }) => {
   return (
-    <header className="bg-yellow-600 text-black py-4 fixed top-0 left-0 w-full shadow-lg z-40">
+    <header className="bg-yellow-600 text-black py-4 fixed top-0 left-0 w-full shadow-lg ">
       <nav className="container mx-auto flex flex-wrap justify-between items-center px-4 md:px-6">
         {/* Logo / Title */}
         <div className="flex items-center space-x-4">

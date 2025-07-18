@@ -47,7 +47,7 @@ const TeamDisplay: React.FC<TeamDisplayProps> = ({ team, removeFromTeam, closeTe
         <p className="text-red-500 mt-4 text-center">Team is full (6 Pokémon).</p>
       )}
 
-      <div className="mt-6 text-center">
+      <div className="mb-20 text-center">
         <TeamStats team={team} />
       </div>
     </div>

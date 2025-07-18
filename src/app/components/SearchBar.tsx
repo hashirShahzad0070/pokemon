@@ -6,7 +6,7 @@ interface SearchBarProps {
   pokemonName: string;
   handleSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   handleSearchSubmit: (e: React.FormEvent) => void;
-  setPokemonName: (name: string) => void; // NEW PROP
+  setPokemonName: (name: string) => void; 
 }
 
 const SearchBar: React.FC<SearchBarProps> = ({
