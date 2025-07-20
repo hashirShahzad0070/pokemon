@@ -88,7 +88,7 @@ const PokemonCard: React.FC = () => {
         ) : error ? (
           <ErrorMessage message={error} retrySearch={retrySearch} />
         ) : (
-          <div className="bg-white rounded-2xl p-8 w-full max-w-3xl border-4 border-green-600 shadow-lg shadow-yellow-700">
+          <div className="bg-white rounded-2xl p-8 w-full max-w-3xl border-4 border-green-600 shadow-lg shadow-yellow-700 mt-8">
             <SearchBar
               pokemonName={pokemonName}
               handleSearchChange={handleSearchChange}
