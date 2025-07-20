@@ -39,7 +39,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
   };
 
   return (
-    <div className=" w-full">
+    <div className="relative w-full">
       <form
         onSubmit={handleSearchSubmit}
         className="mb-2 flex items-center space-x-2"
@@ -65,7 +65,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
       </form>
 
       {showSuggestions && suggestions.length > 0 && (
-        <ul className="absolute z-10 bg-white text-black border border-gray-300 rounded-md shadow-md max-h-48 overflow-y-auto w-full">
+        <ul className="z-10 absolute  bg-white text-black border border-gray-300 rounded-md shadow-md max-h-48 overflow-y-auto w-full">
           {suggestions.map((name) => (
             <li
               key={name}
